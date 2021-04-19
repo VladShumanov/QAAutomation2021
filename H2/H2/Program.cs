@@ -5,7 +5,7 @@ namespace H2
 {
     class Program
     {
-        static string ConcatenationOfArguments( string[] args )
+        private static string ConcatenationOfArguments( string[] args )
         {
             StringBuilder line = new StringBuilder( );
 
@@ -100,7 +100,7 @@ namespace H2
             Console.WriteLine( "}=" + (positions[1] - positions[0] + 1) );
         }
 
-        private static void Main( string[] args )
+        static void Main( string[] args )
         {
             if ( args.Length > 0 )
             {
