@@ -71,7 +71,7 @@ namespace H2
         //finds the largest substring where no character is repeated
         private static int[] NoRepetitionsInPrinciple( string line )
         {
-            //the bounds substring where no character is repeated with adjacent characters
+            //the bounds substring where no character is repeated with other characters
             int leftBoundary = 0;
             int rightBoundary = 0;
 
